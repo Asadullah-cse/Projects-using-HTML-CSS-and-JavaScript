@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(38, 0, 255);
+    font-family: sans-serif;
+}
+
+.result{
+    margin-bottom: 30px;
+    width: 30vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 16px;
+}
+
+#result{
+    font-size: 3rem;
+}
+
+.calc{
+    background-color: rgb(97, 181, 255);
+    margin-top: 15vh;
+    margin-left: 31vw;
+    padding: 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30vw;
+    border: none;
+    border-radius: 16px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.TakeNumbers{
+    height: 6vh;
+    width: 30vw;
+    border: none;
+    border-radius: 16px;
+}
+
+.opr {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto auto auto;
+}
+
+.Operator {
+    background-color: rgb(1, 1, 129);
+    color: white;
+    width: 6vw;
+    height: 7vh;
+    border: none;
+    border-radius: 16px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.Operator:hover{
+    background-color: rgb(45, 45, 254);
+}
+
+#reset-btn{
+    margin-top: 30px;
+    background-color: rgb(3, 3, 85);
+    color: white;
+    width: 20vw;
+    height: 7vh;
+    border: none;
+    border-radius: 16px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+#reset-btn:hover{
+    background-color: rgb(68, 68, 250);
+}
