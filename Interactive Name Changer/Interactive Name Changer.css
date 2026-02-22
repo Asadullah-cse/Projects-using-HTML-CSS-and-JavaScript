@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(175, 218, 255);
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+.NameHold {
+    margin: 20vh auto auto auto;
+    padding: 32px 32px;
+    background-color: aqua;
+    width: 60vw;
+    border: none;
+    border-radius: 16px;
+}
+
+.changebtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#Name {
+    margin-top: 25px;
+    height: 6vh;
+    width: 25vw;
+    border: none;
+    border-radius: 16px;
+}
+
+#btn {
+    background-color: blue;
+    color: white;
+    height: 6vh;
+    width: 10vw;
+    border: none;
+    border-radius: 16px;
+}
+
+#btn:hover {
+    background-color: rgb(83, 83, 255);
+}
