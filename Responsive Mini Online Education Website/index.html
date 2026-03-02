@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Online Education | Website</title>
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp">
+        <div class="logo"><img src="images/img.png" alt="Logo"></div>
+        <ul class="nav-list v-class-resp">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="search" name="search" id="search" placeholder="Search here">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <button class="hamburger">☰</button>
+    </nav>
+
+    <section id="home" class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Shaping the Future of Learning</p>
+                <p class="text-small">In a world of over 7 billion people, education drives progress by empowering
+                    minds, building skills, and creating opportunities. Our platform makes learning accessible and
+                    future-ready, helping you grow, master new skills, and explore knowledge without boundaries—so you
+                    can shape a brighter and more successful future.</p>
+                <div class="buttons">
+                    <button class="btn">Join Us</button>
+                    <button class="btn">Enroll Now</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="images/educ.png" alt="Laptop">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+
+        <article class="section">
+            <div class="paras">
+                <p class="text-big text-center">About Us</p>
+                <p class="sectionSubTag">The end of your search is here. We believe education is the foundation of
+                    progress, empowering individuals with knowledge and skills that open doors to endless opportunities.
+                    Our platform is designed to make learning simple, accessible, and meaningful—helping you grow and
+                    achieve your goals in a world that values innovation and understanding.</p>
+            </div>
+            <!-- <div class="thumbnail">
+                <img src="images/books.png" alt="Arranged Books" class="books-img">
+            </div> -->
+        </article>
+        <article class="section section-next">
+            <div class="paras">
+                <p class="text-big text-center">Transforming Education</p>
+                <p class="sectionSubTag">We are redefining the way people learn by creating an environment where
+                    knowledge is accessible to everyone. Education today is not just about textbooks—it’s about
+                    practical skills, critical thinking, and personal growth. Our mission is to bridge the gap between
+                    ambition and opportunity, providing tools and resources that inspire learning and prepare
+                    individuals for the future. Together, we are shaping a world where education transforms lives and
+                    builds a brighter tomorrow.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="images/books.png" alt="Arranged Books" class="books-img">
+            </div>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <div class="form">
+            <input type="text" name="name" id="name" class="form-input" placeholder="Enter your name" required>
+            <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email" required>
+            <input type="tel" name="phone" id="phone" class="form-input" placeholder="Enter your phone no." required>
+            <textarea name="text" id="text" cols="30" rows="10" class="form-input" placeholder="Elaborate your concern"
+                required></textarea>
+            <button type="submit" class="btn submit-btn">Submit</button>
+        </div>
+    </section>
+
+
+    <footer>Copyright &copy; Online Education - All Rights Reserved</footer>
+
+    <script src="javascript/resp.js"></script>
+</body>
+
+</html>
