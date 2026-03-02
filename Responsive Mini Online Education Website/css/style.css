@@ -1,1 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgb(39, 39, 39);
+    padding: 8px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+/* .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.logo img {
+    width: 50px;
+    border: 3px solid blue;
+    border-radius: 100px;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-list li a:hover {
+    color: rgb(167, 167, 167);
+}
+
+.rightNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    min-width: 250px;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+}
+
+.firstHalf {
+    width: 75%;
+}
+
+.text-big {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    margin: 0;
+}
+
+.btn:hover {
+    color: rgb(164, 163, 163);
+    border-color: rgb(164, 163, 163);
+}
+
+.secondHalf {
+    max-width: 25%;
+}
+
+.secondHalf img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+#about {
+    background-color: rgb(225, 225, 225);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.section-next {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 70px 45px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.sectionSubTag {
+    padding: 20px 0;
+}
+
+.books-img {
+    width: 60%;
+    border: 2px solid gray;
+    border-radius: 20%;
+}
+
+#contact {
+    background-color: rgb(220, 220, 220);
+    padding: 50px 0;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.form {
+    max-width: 55%;
+    margin: auto;
+}
+
+.form-input {
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#text {
+    resize: none;
+}
+
+.submit-btn {
+    color: black;
+    border: 2px solid black;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
