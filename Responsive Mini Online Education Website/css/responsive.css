@@ -1,0 +1,107 @@
+@media (max-width: 760px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {
+        position: absolute;
+        left: 4%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list ul li a {
+        width: 100%;
+    }
+
+    .rightNav {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    #search {
+        width: 60%;
+    }
+
+    .btn-sm {
+        width: 25%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 70px;
+    }
+
+    .v-class-resp {
+        display: none;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 90%;
+    }
+
+    #about{
+        padding-bottom: 50px;
+    }
+
+    .secondHalf {
+    max-width: 30%;
+    }
+
+    .form {
+        max-width: 80%;
+    }
+
+    .section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .paras {
+        padding: 70px 45px;
+    }
+
+    .sectionSubTag {
+        padding: 20px 0;
+    }
+
+    .books-img {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .logo{
+        padding-right: 20px;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 410px) {
+    .secondHalf{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 365px) {
+    .secondHalf{
+        margin-top: 180px;
+    }
+}
