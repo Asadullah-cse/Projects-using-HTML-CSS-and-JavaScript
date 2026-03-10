@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #191970;
+    color: #FAFAFA;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    padding: 15px 15px;
+}
+
+main {
+    padding: 60px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.count-result {
+    text-align: center;
+    padding: 32px;
+    width: 40%;
+    min-height: 10vh;
+    margin: auto;
+    background-color: #006666;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.counter h1 {
+    font-size: 3rem;
+}
+
+.buttons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counter-btn {
+    color: #FAFAFA;
+    padding: 10px 30px;
+    width: 100px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#Inc {
+    background-color: green;
+}
+
+#Inc:hover {
+    background-color: #00CC00;
+    cursor: pointer;
+}
+
+#Dec {
+    background-color: red;
+}
+
+#Dec:hover {
+    background-color: #fd4e4e;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 25px 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width: 900px){
+
+    main {
+    padding: 50px 20px;
+}
+
+    .counter{
+        padding: 50px 25px;
+    }
+
+    .count-result{
+        width: 60%;
+    }
+
+    .buttons{
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 550px){
+
+    main {
+    padding: 50px 5px;
+}
+
+    .count-result{
+        width: 80%;
+    }
+
+}
