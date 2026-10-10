@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #030164;
+    color: white;
+}
+
+header{
+    background-color: #030179;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+
+section{
+    width: 80vw;
+    margin: 30px auto;
+}
+
+#add-task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#input{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    width: 30vw;
+}
+
+#input:focus{
+    outline: 2px solid rgb(0, 115, 255);
+}
+
+#add-btn{
+    background-color: #2D7495;
+}
+
+#add-btn:hover{
+    background-color: #055e86;
+    cursor: pointer;
+}
+
+#todo-lists{
+    width: 60vw;
+    background-color: #363199;
+    border-radius: 10px;
+}
+
+#todo-lists #list{
+    width: 100%;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+#todo-lists #list li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#todo-lists #list li span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+button{
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.edit-btn{
+    background-color: green;
+}
+
+.edit-btn:hover{
+    background-color: rgb(5, 174, 5);
+    cursor: pointer;
+}
+
+.del-btn{
+    background-color: red;
+}
+
+.del-btn:hover{
+    background-color: rgb(255, 70, 70);
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    section{
+        width: 95vw;
+    }
+    #input{
+        width: 45vw;
+    }
+    #todo-lists{
+        width: 80vw;
+    }
+}
+
+@media(max-width: 500px){
+    section{
+        width: 100vw;
+    }
+    #input{
+        width: 70vw;
+    }
+    #todo-lists{
+        width: 100vw;
+    }
+}
